@@ -1,0 +1,105 @@
+{
+  "name": "WeathersTime",
+  "author": "AwesomeInRed",
+  "version": "2.10.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.3"
+  },
+  "pebble": {
+    "displayName": "WeathersTime",
+    "uuid": "129ebcee-7ca8-478a-8171-35926b0c559c",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt",
+      "chalk"
+    ],
+    "capabilities": [
+      "location",
+      "configurable"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "TEMPERATURE",
+      "CONDITIONS",
+      "CODE",
+      "DESCRIPTION",
+      "LOCATION",
+      "ISDAY",
+      "BackgroundColor",
+      "TimeBandColor",
+      "TimeColor",
+      "DateColor",
+      "WeatherColor",
+      "LocationColor",
+      "BatteryColor",
+      "DateFormat",
+      "TemperatureUnit",
+      "Animate",
+      "WeatherSource",
+      "BluetoothAlert",
+      "JSREADY"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "IMAGE_CLOUD_DAY",
+          "file": "images/cloud_day.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_CLOUD_NIGHT",
+          "file": "images/cloud_night.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_CLEAR_DAY",
+          "file": "images/clear_day.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_CLEAR_NIGHT",
+          "file": "images/clear_night.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_THUNDERSTORM",
+          "file": "images/thunderstorm.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_DRIZZLE",
+          "file": "images/drizzle.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_RAIN",
+          "file": "images/rain.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_SNOW",
+          "file": "images/snow.png"
+        },
+        {
+          "type": "bitmap",
+          "name": "IMAGE_ATMOSPHERE",
+          "file": "images/atmosphere.png"
+        },
+        {
+          "menuIcon": true,
+          "type": "bitmap",
+          "name": "ICON_WEATHERS_TIME",
+          "file": "images/app_icon.png"
+        }
+      ]
+    }
+  }
+}

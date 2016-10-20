@@ -1,0 +1,194 @@
+[
+  {
+    "type": "heading",
+    "defaultValue": "Weathers Time"
+  },
+  {
+    "type": "text",
+    "defaultValue": "Configuration"
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Colors"
+      },
+      {
+        "type": "color",
+        "messageKey": "BackgroundColor",
+        "defaultValue": "0x000000",
+        "label": "Background Color"
+      },
+      {
+        "type": "color",
+        "messageKey": "TimeBandColor",
+        "defaultValue": "0xFF0000",
+        "label": "Band Color"
+      },
+      {
+        "type": "color",
+        "messageKey": "BatteryColor",
+        "defaultValue": "0x000000",
+        "label": "Battery Meter Color"
+      },
+      {
+        "type": "color",
+        "messageKey": "TimeColor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Time Text Color"
+      },
+      {
+        "type": "color",
+        "messageKey": "DateColor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Date Text Color"
+      },
+      {
+        "type": "color",
+        "messageKey": "WeatherColor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Weather Description Text Color"
+      },
+      {
+        "type": "color",
+        "messageKey": "LocationColor",
+        "defaultValue": "0xFFFFFF",
+        "label": "Location Text Color"
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Date Preference"
+      },
+      {
+        "type": "select",
+        "messageKey": "DateFormat",
+        "label": "Display",
+        "defaultValue": "%d %b",
+        "options": [
+          {
+            "label": "Month",
+            "value": "%d %b"
+          },
+          {
+            "label": "Day",
+            "value": "%d %a"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Unit Preference"
+      },
+      {
+        "type": "select",
+        "messageKey": "TemperatureUnit",
+        "label": "Temperature",
+        "defaultValue": "Celsius",
+        "options": [
+          {
+            "label": "Celsius",
+            "value": "Celsius"
+          },
+          {
+            "label": "Fahrenheit",
+            "value": "Fahrenheit"
+          },
+          {
+            "label": "Kelvin",
+            "value": "Kelvin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Animation"
+      },
+      {
+        "type": "text",
+        "defaultValue": "If animation is enabled, weather info will only be displayed when flick gesture is detected"
+      },
+      {
+        "type": "toggle",
+        "messageKey" : "Animate",
+        "label": "Enable Animation",
+        "defaultValue": false
+      }
+      ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Bluetooth Alert"
+      },
+      {
+        "type": "toggle",
+        "messageKey" : "BluetoothAlert",
+        "label": "Vibration Alert",
+        "defaultValue": false
+      }
+      ]
+  },
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "defaultValue": "Weather Info"
+      },
+      {
+        "type": "select",
+        "messageKey": "WeatherSource",
+        "label": "Source",
+        "defaultValue": "0",
+        "options": [
+          {
+            "label": "OpenWeatherMap",
+            "value": "0"
+          },
+          {
+            "label": "Weather Underground",
+            "value": "1"
+          },
+          {
+            "label": "Dark Sky",
+            "value": "2"
+          },
+          {
+            "label": "Yahoo! Weather",
+            "value": "3"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "defaultValue": "<p>Acknowlegements</p><ul><li>- OpenWeatherMap</li><li>- Weather Underground</li><li>- Dark Sky</li><li>- Yahoo! Weather</li></ul>"
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "defaultValue": "v2.10"
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save Settings"
+  }
+]
