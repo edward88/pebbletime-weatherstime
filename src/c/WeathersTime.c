@@ -131,10 +131,6 @@ static bool is_unobstructed()
   return grect_equal(&full_bounds, &bounds);
 }
 
-uint8_t relative_pixel(int16_t percent, int16_t max) {
-  return (max * percent) / 100;
-}
-
 static void set_unobstructed_change_display()
 {
   layer_set_frame(text_layer_get_layer(s_weather_location_layer), get_location_layer());
