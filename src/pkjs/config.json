@@ -179,13 +179,13 @@
       },
       {
         "type": "text",
-        "defaultValue": "<p>Acknowlegements</p><ul><li>- OpenWeatherMap</li><li>- Weather Underground</li><li>- Dark Sky</li><li>- Yahoo! Weather</li></ul>"
+        "defaultValue": "<p>Powered by:</p><ul><li>- OpenWeatherMap</li><li>- Weather Underground</li><li>- Dark Sky</li><li>- Yahoo! Weather</li></ul>"
       }
     ]
   },
   {
     "type": "text",
-    "defaultValue": "v2.10"
+    "defaultValue": "v2.11"
   },
   {
     "type": "submit",
